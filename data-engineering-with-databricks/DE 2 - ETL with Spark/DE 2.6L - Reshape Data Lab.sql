@@ -105,6 +105,11 @@ SELECT * FROM EVENTS;
 
 -- COMMAND ----------
 
+DESCRIBE DETAIL events;
+--  It is delta already!
+
+-- COMMAND ----------
+
 -- TODO
 CREATE OR REPLACE TEMP VIEW events_pivot
 AS
