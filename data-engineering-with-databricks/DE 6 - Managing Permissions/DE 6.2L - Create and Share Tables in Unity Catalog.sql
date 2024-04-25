@@ -144,7 +144,7 @@ SELECT * FROM patient_gold.heartrate_stats;
 
 -- COMMAND ----------
 
--- GRANT SELECT ON TABLE patient_gold.heartrate_stats to `account users`
+GRANT SELECT ON TABLE patient_gold.heartrate_stats to `account users`
 
 -- COMMAND ----------
 
@@ -169,8 +169,8 @@ SELECT * FROM patient_gold.heartrate_stats;
 
 -- COMMAND ----------
 
--- GRANT USAGE ON CATALOG ${DA.catalog_name} TO `account users`;
--- GRANT USAGE ON SCHEMA patient_gold TO `account users`
+GRANT USAGE ON CATALOG ${DA.catalog_name} TO `account users`;
+GRANT USAGE ON SCHEMA patient_gold TO `account users`
 
 -- COMMAND ----------
 
@@ -190,7 +190,7 @@ SELECT * FROM patient_gold.heartrate_stats;
 
 -- COMMAND ----------
 
--- SHOW GRANT ON TABLE ${DA.catalog_name}.patient_gold.heartrate_stats
+SHOW GRANT ON TABLE ${DA.catalog_name}.patient_gold.heartrate_stats
 
 -- COMMAND ----------
 
@@ -204,7 +204,7 @@ SHOW TABLES IN ${DA.catalog_name}.patient_silver;
 
 -- COMMAND ----------
 
--- SHOW GRANT ON TABLE ${DA.catalog_name}.patient_silver.heartrate
+SHOW GRANT ON TABLE ${DA.catalog_name}.patient_silver.heartrate
 
 -- COMMAND ----------
 
@@ -216,7 +216,7 @@ SHOW TABLES IN ${DA.catalog_name}.patient_silver;
 
 -- COMMAND ----------
 
--- SHOW GRANT ON SCHEMA ${DA.catalog_name}.patient_silver
+SHOW GRANT ON SCHEMA ${DA.catalog_name}.patient_silver
 
 -- COMMAND ----------
 
@@ -228,7 +228,7 @@ SHOW TABLES IN ${DA.catalog_name}.patient_silver;
 
 -- COMMAND ----------
 
--- SHOW GRANT ON CATALOG `${DA.catalog_name}`
+SHOW GRANT ON CATALOG `${DA.catalog_name}`
 
 -- COMMAND ----------
 

@@ -103,7 +103,7 @@ SELECT * FROM gold.heartrate_avgs
 
 -- COMMAND ----------
 
--- GRANT SELECT ON VIEW gold.heartrate_avgs to `account users`
+GRANT SELECT ON VIEW gold.heartrate_avgs to `account users`
 
 -- COMMAND ----------
 
@@ -115,8 +115,8 @@ SELECT * FROM gold.heartrate_avgs
 
 -- COMMAND ----------
 
--- GRANT USAGE ON CATALOG ${DA.catalog_name} TO `account users`;
--- GRANT USAGE ON DATABASE gold TO `account users`
+GRANT USAGE ON CATALOG ${DA.catalog_name} TO `account users`;
+GRANT USAGE ON DATABASE gold TO `account users`
 
 -- COMMAND ----------
 
@@ -203,7 +203,7 @@ SELECT
 
 -- COMMAND ----------
 
--- GRANT SELECT ON VIEW gold.heartrate_avgs to `account users`
+GRANT SELECT ON VIEW gold.heartrate_avgs to `account users`
 
 -- COMMAND ----------
 
@@ -245,7 +245,7 @@ WHERE
 
 -- COMMAND ----------
 
--- GRANT SELECT ON VIEW gold_allhr to `account users`
+GRANT SELECT ON VIEW gold_allhr to `account users`
 
 -- COMMAND ----------
 
@@ -288,7 +288,7 @@ WHERE
 
 -- COMMAND ----------
 
--- GRANT SELECT ON VIEW gold_allhr to `account users`
+GRANT SELECT ON VIEW gold_allhr to `account users`
 
 -- COMMAND ----------
 
